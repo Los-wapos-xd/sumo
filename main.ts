@@ -33,6 +33,7 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     basic.pause(7000)
     mensaje_alamasigan = 0
+    maqueen.servoRun(maqueen.Servos.S2, 100)
 })
 let mensaje_alamasigan = 0
 maqueen.servoRun(maqueen.Servos.S2, 100)
